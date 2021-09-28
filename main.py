@@ -17,15 +17,15 @@ def equalTo(x, y):
     else:
         return False
 print(equalTo(110, 11))
-def geaterThanOrEqual(x, y):
+def greaterOrEqual(x, y):
     if x >= y:
         return True
     else:
         return False
-print(geaterThanOrEqual(12, 13))
-def lessThanOrEqual(x, y):
+print(greaterOrEqual(12, 13))
+def lessOrEqual(x, y):
     if x <= y:
         return True
     else:
         return False
-print(lessThanOrEqual(4, 2))
+print(lessOrEqual(4, 2))
